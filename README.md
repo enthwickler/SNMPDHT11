@@ -26,11 +26,9 @@ MIB browser(http://bytesofgigabytes.com/snmp-protocol/snmp-manager/)
 
 
 Connections between NODEMCU AND DTH11:
-
-NODEMCU        DTH11
-  VCC           VCC
-  D3(GPIO0)     SIGNAL
-  GND           GND
+  VCC(nodemcu)->CC(dth11)
+  D3(GPIO0)(nodemcu)->SIGNAL(dth11)
+  GND(nodemcu)->GND(dth11)
 
 
 For configuring SNMP on NodeMcu follow the link below:
